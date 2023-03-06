@@ -1,0 +1,28 @@
+{
+  "name": "npm-dashboard",
+  "version": "0.0.1",
+  "description": "online version of npm-cockpit server for getting dependencies data directly from npm registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0000ring/npm-dashboard.git"
+  },
+  "keywords": [
+    "npm",
+    "dependencies",
+    "server",
+    "data"
+  ],
+  "author": "Alex Chirkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b0000ring/npm-dashboard/issues"
+  },
+  "homepage": "https://github.com/b0000ring/npm-dashboard#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
