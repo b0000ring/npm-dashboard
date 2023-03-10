@@ -1,7 +1,7 @@
 {
   "name": "npm-dashboard",
   "version": "0.0.1",
-  "description": "online version of npm-cockpit server for getting dependencies data directly from npm registry",
+  "description": "web version of npm-cockpit server for getting dependencies data directly from npm registry",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,6 @@
   "keywords": [
     "npm",
     "dependencies",
-    "server",
     "data"
   ],
   "author": "Alex Chirkin",
@@ -23,6 +22,6 @@
   },
   "homepage": "https://github.com/b0000ring/npm-dashboard#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "aws-sdk": "^2.1331.0"
   }
 }
