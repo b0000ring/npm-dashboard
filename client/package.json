@@ -1,0 +1,35 @@
+{
+  "name": "npm-dashboard",
+  "version": "1.0.0",
+  "description": "web version of npm-cockpit client app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch",
+    "serve": "http-server ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0000ring/npm-dashboard.git"
+  },
+  "keywords": [
+    "npm",
+    "web",
+    "js",
+    "spa"
+  ],
+  "author": "Alex Chirkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b0000ring/npm-dashboard/issues"
+  },
+  "homepage": "https://github.com/b0000ring/npm-dashboard#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "d3": "^7.8.2"
+  }
+}
